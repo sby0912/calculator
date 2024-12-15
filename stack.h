@@ -2,6 +2,8 @@
 #define STACK_H
 #include <stdbool.h> 
 
+#define STACK_VERSION "1.0" // 추가
+
 typedef int Item;
 typedef struct stack {
 Item * contents;
