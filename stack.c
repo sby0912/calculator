@@ -33,6 +33,7 @@ void push(Stack * stack, Item i)
 		reallocate(stack);
 	stack->contents[stack->top++] = i;
 	printf("--Pushded: %d\n", i);
+	printf("Item %d has been pushed to the stack.\n", i); //추가
 }
 
 Item pop(Stack * stack)
