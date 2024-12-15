@@ -1,5 +1,6 @@
 #ifndef STACK_H
 #define STACK_H
+#define TRACK_STACK_STATE(s) printf("Stack state: top=%d, size=%d\n", (s)->top, (s)->size); // 추가
 #include <stdbool.h> 
 
 typedef int Item;
